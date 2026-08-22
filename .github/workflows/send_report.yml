@@ -2,9 +2,9 @@ name: Send Rich Telegram Report
 
 on:
   workflow_dispatch: # 支持手动点击运行
-  schedule:
+  # schedule:
     # 每天 UTC 01:00 自动执行（北京时间 09:00）
-    - cron: '0 1 * * *'
+   # - cron: '0 1 * * *'
 
 jobs:
   run-and-send:
